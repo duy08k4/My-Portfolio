@@ -11,7 +11,7 @@ function Project() {
     const [project, setProject] = useState([])
 
     useEffect(() => {
-        (new myData).getProject().then(data => setProject(data))
+        ((new myData).getProject()).then(data => setProject(data))
     }, [])
 
     return (

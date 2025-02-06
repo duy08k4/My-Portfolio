@@ -9,7 +9,7 @@ function About(props) {
             className='about'
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ amount: 0.8 }}
+            viewport={{ amount: 0.3 }}
         >
             <motion.div 
                 className='infomationBox'
@@ -33,8 +33,8 @@ function About(props) {
                 <p className='noSelect introduce'>{props.basicData.myIntro}</p>
 
                 <div className='direct'>
-                    <a href={props.basicData.mycv} className='directButton directCV' target='_blank' rel='noopener noreferrer'><i className="far fa-share-square"></i> view my cv</a>
-                    <a href="#project" className='directButton directProject'>view my projects</a>
+                    <a href={props.basicData.mycv} className='directButton directCV' target='_blank' rel='noopener noreferrer'><i className="far fa-share-square"></i> my cv</a>
+                    <a href="#project" className='directButton directProject'>my projects</a>
                 </div>
             </motion.div>
 

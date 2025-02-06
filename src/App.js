@@ -1,5 +1,6 @@
 import './App.css';
 import './index.css';
+import './mobile.css'
 
 // Import Component
 import ContainerProfile from './components/ContainerProfile';
